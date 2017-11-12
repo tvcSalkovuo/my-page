@@ -1,0 +1,144 @@
+body {
+    background-image:url('img/tausta.jpg');
+    background-size:cover;
+    color:white;
+    font-size:1.25em;
+    font-family: 'Barlow Condensed' ,sans-serif;
+    line-height:1.5;
+    text-align:left;
+    background-repeat:no-repeat;
+}
+a{
+    text-decoration:none;
+}
+.body{
+    margin: auto;
+    width:80%;
+    clear:both;
+}
+h2 {
+    font-family: 'Barlow Condensed' ,sans-serif;
+    font-size:2em;
+    text-align: center;
+}
+.mainheader nav{
+    background-color: #B6CED6;
+    height:2.8em;
+    border-radius:0.313em;
+    -moz-border-radius:0.313em;
+    -webkit-border-radius:0.313em;
+}
+.mainheader nav ul{
+    list-style:none;
+    margin:0 auto;
+}
+.mainheader nav ul li{
+    float:left;
+    font-family: 'Barlow Condensed' ,sans-serif;
+    font-size:0.8;
+    font-style:bold;
+    display:inline;
+    margin-left:16%;
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+    color:#FFF;
+    display:inline-block;
+    padding:0.625em 1.563em;
+    height:100%;
+}
+.mainheader nav a:hover, .mainheader nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited{
+    background-color:#558392;
+    text-shadow:none;
+    height:100%
+}
+.mainheader nav ul li a{
+    border-radius:0.313em;
+    -moz-border-radius:0.313em;
+    -webkit-border-radius:0.313em;
+}
+.mainContent{
+    line-height:1.563em;
+    border-radius:0.313em;
+    -moz-border-radius:0.313em;
+    -webkit-border-radius:0.313em;
+}
+.content{
+    margin-top:1%;
+    width:70%;
+    float:left;
+}
+.topContent{
+    background: #abbaab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #FBFCFD, #E0EBEF, #84A8B4);
+    background: linear-gradient(to bottom right, #FBFCFD, #E0EBEF, #84A8B4);
+    border-radius:0.313em;
+    -moz-border-radius:0.313em;
+    -webkit-border-radius:0.313em;
+    padding:3% 5%;
+    margin-top:2%;
+}
+.bottomContent{
+    background: #abbaab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #FBFCFD, #E0EBEF, #84A8B4);
+    background: linear-gradient(to bottom right, #FBFCFD, #E0EBEF, #84A8B4);
+    border-radius:0.313em;
+    -moz-border-radius:0.313em;
+    -webkit-border-radius:0.313em;
+    padding:3% 5%;
+    margin-top:2%;
+}
+.mainFooter{
+    width:100%;
+    height:2.5;
+    float:left;
+    border-radius:0.313em;
+    -moz-border-radius:0.313em;
+    -webkit-border-radius:0.313em;
+    margin-top:2%;
+    margin-bottom:2%;
+    background-color:#336778;
+}
+.mainFooter p{
+    width:92%;
+    margin:0.7% auto;
+    color:white;
+}
+@media only screen and (min-width: 9.375em) and (max-width:95em){
+    .body{
+        width:90%;
+        font-size:95%;
+    }
+    .mainheader img{
+        width:100%;
+        margin:0 auto;
+    }
+    .mainheader nav{
+        height:12.6em;
+        font-size:100%;
+    }
+    .mainheader nav ul{
+        padding-left:0;
+    }
+    .mainheader nav ul li{
+        width:100%;
+        text-align:center;
+        margin:0;
+    }
+    .mainheader nav a:link, .mainheader nav a:visited{
+        padding:0.625em 1.563em;
+        height:1.25em;
+        display:block;
+    }
+    .content{
+        margin-top:2%;
+        width:100%;
+        float:left;
+    }
+    .topContent{
+        border-radius:0.313em;
+        -moz-border-radius:0.313em;
+        -webkit-border-radius:0.313em;
+        padding:3% 5%;
+        margin-top:2%;
+        margin-bottom:4%;
+    }
