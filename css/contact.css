@@ -8,27 +8,26 @@ body {
     text-align:left;
 }
 p {
-	color: black;
-	font-size:0.8em;
+    color: black;
+    font-size:0.9em;
+}
+ul {
+    color:black;
+    font-size: 1em;
 }
 a{
     text-decoration:none;
 }
 .body{
     margin: auto;
-    width:80%;
+    width:90%;
     clear:both;
 }
 h2 {
     font-family: 'Barlow Condensed' ,sans-serif;
     font-size:2em;
-    text-align: left;
-	color:#558392;
-}
-h3 {
-	font-family: 'Barlow Condensed' ,sans-serif;
-	font-size:1.5em;
-	margin-left:20%;
+    text-align: center;
+    color:#558392;
 }
 .mainheader nav{
     background-color: #B6CED6;
@@ -42,12 +41,12 @@ h3 {
     margin:0 auto;
 }
 .mainheader nav ul li{
-    float:left;
+    float:center;
     font-family: 'Barlow Condensed' ,sans-serif;
     font-size:0.8;
     font-style:bold;
     display:inline;
-    margin-left:16%;
+    margin-left:16.9%;
 }
 .mainheader nav a:link, .mainheader nav a:visited{
     color:#FFF;
@@ -86,16 +85,6 @@ h3 {
     padding:3% 5%;
     margin-top:2%;
 }
-.bottomContent{
-    background: #abbaab; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom right, #FBFCFD, #E0EBEF, #84A8B4);
-    background: linear-gradient(to bottom right, #FBFCFD, #E0EBEF, #84A8B4);
-    border-radius:0.313em;
-    -moz-border-radius:0.313em;
-    -webkit-border-radius:0.313em;
-    padding:3% 5%;
-    margin-top:2%;
-}
 .mainFooter{
     width:100%;
     height:2.5;
@@ -114,7 +103,7 @@ h3 {
 }
 .form {
     margin:0.625em auto;
-    max-width: 25em;
+    max-width: 35em;
     padding: 1.25em 0.75em 1.25em 2.5em;
     font-family: 'Barlow Condensed' ,sans-serif;
 }
@@ -192,10 +181,10 @@ select{
     -webkit-box-shadow:none;
 }
 .form p{
-	color:#fff;
-	font-size:1em;
-	font-family:'Barlow Condensed' ,sans-serif;
-	font-weight:bold;
+    color:#fff;
+    font-size:1em;
+    font-family:'Barlow Condensed' ,sans-serif;
+    font-weight:bold;
 }
 @media only screen and (min-width: 9.375em) and (max-width:95em){
     .body{
@@ -223,12 +212,4 @@ select{
         margin-top:2%;
         width:100%;
         float:left;
-    }
-    .topContent{
-        border-radius:0.313em;
-        -moz-border-radius:0.313em;
-        -webkit-border-radius:0.313em;
-        padding:3% 5%;
-        margin-top:2%;
-        margin-bottom:4%;
     }
